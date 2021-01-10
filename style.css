@@ -1,6 +1,7 @@
 body{
     background-image:url(./background.jpg) ;
     background-size: cover;
+    font-family: 'Harmattan', sans-serif
     
 }
 .title {
@@ -27,7 +28,7 @@ h3{
     height: 15vh;
     display: flex;
     align-items: center;
-   
+    
 }
 .icon{
     width: 100px;
@@ -36,6 +37,7 @@ h3{
     margin-top: 250px;
     border-radius: 12px;
     background-color: rgba(245, 245, 245, 0.24);
+    transition: all ease 0.2s;
 }
   
 ul li {
@@ -48,9 +50,10 @@ ul li {
 
 }
 ul li:hover{
-    background-color: white;
-    opacity: 20%;
-    color: white;
+    /* background-color: white;
+    opacity: 20%; */
+    /* color: white; */
     box-shadow: 5px 10px 30px rgba(53, 53, 53, 0.1);
-    transition: all ease 0.2s;
+    transform: rotateZ(30deg);
+    
 }
