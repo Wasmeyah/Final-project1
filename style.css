@@ -1,7 +1,7 @@
 body{
     background-image:url(./background.jpg) ;
     background-size: cover;
-    font-family: 'Harmattan', sans-serif
+    font-family: 'Dosis', sans-serif;
     
 }
 .title {
@@ -33,7 +33,6 @@ h3{
 }
 
 .option{
-    font-size: 60px;
     width: 100%;
     height: 15vh;
     display: flex;
@@ -43,7 +42,7 @@ h3{
 .icon{
     width: 100px;
     height: 100px;
-    margin-left: 250px;
+    margin-left: 500px;
     margin-top: 250px;
     border-radius: 12px;
     background-color: rgba(245, 245, 245, 0.24);
@@ -63,7 +62,6 @@ ul li {
 ul li:hover{
    
     box-shadow: 5px 10px 30px rgba(53, 53, 53, 0.1);
-    transform: rotateZ(30deg);
     
 }
 /* end of css to main page  */
@@ -80,18 +78,6 @@ button{
 
 /* pop up sec */
 
-
- .modal{
-    background-color: rgba(255, 255, 255, 0.507);
-    margin: 10% auto;
-    width: 60%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
-    animation-name: modalopen;
-    animation-duration: var(--modal-duration);
-    text-align: center;  
- }
- 
-/*  */
  [id^=modal] {
     font-family: 'Dosis', sans-serif;
     display: none;
