@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 0.952);
-    font-size: 31px;
+    
     
 }
 h3{
@@ -20,7 +20,17 @@ h3{
     justify-content:space-around;
     align-items: center;
 }
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.O{
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
 
+}
 
 .option{
     font-size: 60px;
@@ -28,7 +38,7 @@ h3{
     height: 15vh;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
 }
 .icon{
     width: 100px;
@@ -38,6 +48,7 @@ h3{
     border-radius: 12px;
     background-color: rgba(245, 245, 245, 0.24);
     transition: all ease 0.2s;
+   
 }
   
 ul li {
@@ -50,10 +61,68 @@ ul li {
 
 }
 ul li:hover{
-    /* background-color: white;
-    opacity: 20%; */
-    /* color: white; */
+   
     box-shadow: 5px 10px 30px rgba(53, 53, 53, 0.1);
     transform: rotateZ(30deg);
     
 }
+/* end of css to main page  */
+button{
+    background-color: rgba(128, 128, 128, 0.349);
+	border: 2px solid white;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+/* pop up sec */
+
+
+ .modal{
+    background-color: rgba(255, 255, 255, 0.507);
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    text-align: center;  
+ }
+ 
+/*  */
+ [id^=modal] {
+    font-family: 'Dosis', sans-serif;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.507);
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    text-align: center; 
+    }
+  input[type=checkbox] {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    }
+  #modal1:target {
+    display: block;
+    }
+    #modal2:target {
+        display: block;
+    }
+    #modal3:target {
+        display: block;
+    }
+  
+  [id^=modal] a {
+    float: right;
+    }
