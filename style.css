@@ -11,6 +11,12 @@ body{
     font-size: 50px;
     
 }
+.n:hover{
+    background-color: #006d77;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(53, 53, 53, 0.1);
+    transition: all ease 0.2s;  
+}
 a{
     color: #1d3557;
 }
