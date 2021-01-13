@@ -1,9 +1,9 @@
 function searchFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById('myinput');
-    filter = input.value.toUpperCase();
-    ul = document.getElementById('wrapper');
-    li = ul.getElementsByTagName('li');
+    let input, filter, ul, li, a, i; //تعريف بالمتغيرات 
+    input = document.getElementById('myinput');//ياخذ المعلومات من الشريط البحث
+    filter = input.value.toUpperCase();//يسمح باخذ اي حالة من حالات الاحرف الكبيره او الصغيره
+    ul = document.getElementById('wrapper');//ياخذ المعلومات من اللسته 
+    li = ul.getElementsByTagName('li');//اسوي array 
 
     for(i=0 ; i< li.length; i++){
         a = li[i].getElementsByTagName('a')[0];
