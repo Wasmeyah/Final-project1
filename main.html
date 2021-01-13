@@ -8,19 +8,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet"> 
 </head>
+<STYLE>A {text-decoration: none;} </STYLE>
 <body>
     <!-- title -->
     <div class="title">
-        <img src="logo.GIF" width="100px" height="100px" >
-        <h2><a href="restaurant.html">restaurant</a></h2>
-      
+        <img src="logo.GIF" width="200px" height="200px" >
+    </div>
+    <!-- serach bar -->
+    <div class="Search-bar">
+        <input type="text" name="" id="myinput" class="Search-txt" placeholder="Search Here ....." onkeyup="searchFunction()" />
+        <a class="Search-btn">
+         <i class="far fa-search"></i>
+        </a>
+    </div>
 
-    </div>
-    <div>
-        <ul class="option">
-            <li><a href="restaurant.html"><img src="./main/restaurant.png" class="icon"></a></li>
-        </ul>
-    </div>
-  
+    <ul id="wrapper">
+        <li>
+            <a class="a" href="./Hotel.html"> Hotel</a>
+        </li>
+        <li>
+            <a class="a" href="./Outdoor.html"> OutDoor</a>
+        </li>
+    </ul>
+    <script src="script.js"></script>
 </body>
 </html>
